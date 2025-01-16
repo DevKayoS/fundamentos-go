@@ -2,9 +2,12 @@ package main
 
 import (
 	"fundamentosGolang/utils"
+	"log/slog"
 )
 
 func main() {
-	utils.SayHello()
-	utils.count("teste")
+	slog.Info("[INICIANDO PROGRAMA]")
+	texto := "nossa lobo mau "
+	texto += "e essas orelhas grandonas"
+	utils.GerarMensagemTerminal(texto)
 }
