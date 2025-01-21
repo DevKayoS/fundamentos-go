@@ -7,8 +7,8 @@ import (
 
 func main() {
 	slog.Info("[INICIANDO PROGRAMA]")
-	basictypes.Int()
-	basictypes.FloatTeste()
-
+	// basictypes.Int()
+	// basictypes.FloatTeste()
+	basictypes.Array()
 	slog.Info("[FINALIZANDO PROGRAMA]")
 }
