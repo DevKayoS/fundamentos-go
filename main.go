@@ -10,6 +10,7 @@ func main() {
 	// basictypes.Int()
 	// basictypes.FloatTeste()
 	// basictypes.Array()
-	basictypes.Slice()
+	// basictypes.Slice()
+	basictypes.Map("Julia")
 	slog.Info("[FINALIZANDO PROGRAMA]")
 }

@@ -24,3 +24,20 @@ func Slice() {
 
 	fmt.Println("Receba como fazer um array sem ter que padronizar sei la porra", receba)
 }
+
+func Map(name string) {
+	pessoas := map[string]int{}
+	pessoas["ze"] = 19
+	pessoas["Kayo"] = 20
+
+	fmt.Println(pessoas)
+	if idade, ok := pessoas[name]; ok {
+		fmt.Println("Fazendo um map", idade, ok)
+	} else {
+		fmt.Println("Tem nao krai")
+	}
+
+	delete(pessoas, "ze")
+	fmt.Println(pessoas)
+
+}
