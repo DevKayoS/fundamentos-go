@@ -9,6 +9,7 @@ func main() {
 	slog.Info("[INICIANDO PROGRAMA]")
 	// basictypes.Int()
 	// basictypes.FloatTeste()
-	basictypes.Array()
+	// basictypes.Array()
+	basictypes.Slice()
 	slog.Info("[FINALIZANDO PROGRAMA]")
 }
