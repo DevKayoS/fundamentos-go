@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fundamentosGolang/condicionais"
 	"log/slog"
 )
 
@@ -12,5 +13,6 @@ func main() {
 	// basictypes.Slice()
 	// basictypes.Map("Julia")
 	// condicionais.Serase()
+	condicionais.Switch()
 	slog.Info("[FINALIZANDO PROGRAMA]")
 }
