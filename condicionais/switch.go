@@ -11,7 +11,7 @@ func Switch() {
 
 	switch time.Friday {
 	case today + 0:
-		fmt.Println("SOmente apenas hoje o dia da maldade SEXTOU")
+		fmt.Println("Somente apenas hoje o dia da maldade SEXTOU")
 	case today + 1:
 		fmt.Println("amanha vai ser o puro")
 	case today + 2:

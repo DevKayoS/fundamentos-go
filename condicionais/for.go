@@ -1,0 +1,5 @@
+package condicionais
+
+func For() {
+
+}
