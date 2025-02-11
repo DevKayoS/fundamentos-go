@@ -13,6 +13,8 @@ func main() {
 	// basictypes.Slice()
 	// basictypes.Map("Julia")
 	// condicionais.Serase()
-	condicionais.Switch()
+	// condicionais.Switch()
+	condicionais.For()
+	// condicionais.While()
 	slog.Info("[FINALIZANDO PROGRAMA]")
 }
