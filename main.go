@@ -14,7 +14,8 @@ func main() {
 	// basictypes.Map("Julia")
 	// condicionais.Serase()
 	// condicionais.Switch()
-	condicionais.For()
+	// condicionais.For()
 	// condicionais.While()
+	condicionais.Range()
 	slog.Info("[FINALIZANDO PROGRAMA]")
 }
