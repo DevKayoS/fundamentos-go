@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fundamentosGolang/estrutura"
 	"log/slog"
 )
 
@@ -18,5 +19,6 @@ func main() {
 	// condicionais.Range()
 	// estrutura.StructClient()
 	// fmt.Println(estrutura.Soma(1, 2))
+	estrutura.Metodos()
 	slog.Info("[FINALIZANDO PROGRAMA]")
 }
