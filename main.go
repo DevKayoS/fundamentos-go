@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fundamentosGolang/condicionais"
+	"fundamentosGolang/estrutura"
 	"log/slog"
 )
 
@@ -16,6 +16,7 @@ func main() {
 	// condicionais.Switch()
 	// condicionais.For()
 	// condicionais.While()
-	condicionais.Range()
+	// condicionais.Range()
+	estrutura.StructClient()
 	slog.Info("[FINALIZANDO PROGRAMA]")
 }
